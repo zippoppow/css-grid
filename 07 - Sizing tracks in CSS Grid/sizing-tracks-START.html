@@ -28,9 +28,14 @@
   </div>
 
   <style>
+    /*
+      fr: fractional elements = the amount of space left after all of the
+      elements have been laid out
+    */
     .container {
       display: grid;
       grid-gap: 20px;
+      grid-template-columns: 200px 200px 1fr;
     }
   </style>
 </body>
